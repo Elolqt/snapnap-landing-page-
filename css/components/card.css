@@ -1,0 +1,77 @@
+.cardGrid {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card img {
+	width: 100px;
+	border-radius: 6px;
+}
+
+.card {
+	margin: 20px;
+	padding: 10px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+	border-radius: 6px;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
+	flex-grow: 1;
+	flex-basis: 250px;
+
+}
+
+.card h3 {
+	font-size: 18px;
+	padding-left: 60px;
+	flex-grow: 1;
+}
+
+.card-grey
+{
+	margin: 0px auto;
+	padding: 0px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+	border-radius: 6px;
+	background-color: rgba(169, 231, 255, 0.2);
+
+}
+
+.card-grey h2 {
+	font-family: 'Lora', serif;
+	font-weight: 700px;
+	font-size: 40px;
+	text-align: center;
+	color: rgba(169, 231, 255, 1.0);
+}
+
+.card-white {
+    background-color: white;
+    padding: 30px;
+    margin: 80px auto;
+    border-radius: 0 15px 35px rgba(50, 50, 93, 0.5);
+    box-shadow: 8px;
+    text-align: center;
+}
+
+.list-inline {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+
+}
+
+.fab
+{
+    color: rgba(169, 231, 255, 0.9);
+    font-size: 70px;
+}
+
+.fab:hover 
+{
+    color: rgba(210, 210, 210, 1.0); 
+    font-size: 90px;
+    transition: 0,5s;
+}
+

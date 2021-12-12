@@ -1,0 +1,52 @@
+.btn-blue {
+	padding: 12px 32px;
+	background-color: #D8F4FF;
+	color: black;
+	border-radius: 6px;
+	text-decoration: none;
+	text-align: center;
+
+}
+
+.btn-blue:hover {
+	color: black;
+    background: rgba(240, 240, 240, 0.8) ;
+    transition: 0.5s;
+}
+
+.btn-purple 
+{
+	padding: 20px;
+	background-color: #D8F4FF;
+	color: black;
+	text-decoration: none;
+	border-radius: 5px;
+	border-style: double;
+}
+
+.btn-purple:hover 
+{
+	color: black;
+    background: rgba(240, 240, 240, 0.8) ;
+    transition: 0.5s;
+}
+
+a 
+{
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto";
+    font-size: 13px;
+}
+ 
+a:hover 
+{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    font-style: no;
+    font-weight: 800;
+    text-align: center;
+}
+
+
